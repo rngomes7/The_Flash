@@ -13,4 +13,9 @@
     <string name="correct">Percent Correct</string>
     <string name="wrong">Percent Wrong</string>
 
+    <!-- Study strings -->
+    <string name="q_instructions1">TAP to see answer</string>
+    <string name="q_instructions2">SWIPE to skip</string>
+    <string name="a_instructions1">SWIPE RIGHT if you got it right</string>
+    <string name="a_instructions2">SWIPE LEFT if you got it wrong</string>
 </resources>
