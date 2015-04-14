@@ -11,8 +11,8 @@
         android:layout_height="wrap_content"
         android:text="Make/Edit Flashcards"
         android:id="@+id/make_edit_button"
-        android:layout_marginTop="140dp"
-        android:layout_below="@+id/The_Flash_Text"
+        android:typeface="serif"
+        android:layout_above="@+id/study_button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
@@ -28,18 +28,20 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:textColor="#ff58b0ff"
-        android:textSize="40dp" />
+        android:textSize="70dp"
+        android:typeface="serif" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Study"
         android:id="@+id/study_button"
-        android:layout_below="@+id/make_edit_button"
+        android:typeface="serif"
+        android:layout_above="@+id/your_scores_button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/make_edit_button"
-        android:layout_alignEnd="@+id/make_edit_button" />
+        android:layout_alignRight="@+id/your_scores_button"
+        android:layout_alignEnd="@+id/your_scores_button" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -47,18 +49,20 @@
         android:layout_height="wrap_content"
         android:text="Your Scores"
         android:id="@+id/your_scores_button"
-        android:layout_below="@+id/study_button"
+        android:typeface="serif"
+        android:layout_above="@+id/settings_button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/study_button"
-        android:layout_alignEnd="@+id/study_button" />
+        android:layout_alignRight="@+id/settings_button"
+        android:layout_alignEnd="@+id/settings_button" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Settings"
         android:id="@+id/settings_button"
-        android:layout_below="@+id/your_scores_button"
+        android:typeface="serif"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
