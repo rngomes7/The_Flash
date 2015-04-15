@@ -18,4 +18,6 @@
     <string name="q_instructions2">SWIPE to skip</string>
     <string name="a_instructions1">SWIPE RIGHT if you got it right</string>
     <string name="a_instructions2">SWIPE LEFT if you got it wrong</string>
+    <string name="title_activity_make__edit__page">Make_Edit_Page</string>
+    <string name="action_settings">Settings</string>
 </resources>
