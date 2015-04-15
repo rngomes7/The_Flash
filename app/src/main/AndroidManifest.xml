@@ -20,6 +20,18 @@
             android:name=".Make_Edit_Page"
             android:label="@string/title_activity_make__edit__page" >
         </activity>
+        <activity
+            android:name=".Study_Page"
+            android:label="@string/title_activity_study__page" >
+        </activity>
+        <activity
+            android:name=".Your_Scores_Page"
+            android:label="@string/title_activity_your__scores__page" >
+        </activity>
+        <activity
+            android:name=".Settings_Page"
+            android:label="@string/title_activity_settings__page" >
+        </activity>
     </application>
 
 </manifest>
