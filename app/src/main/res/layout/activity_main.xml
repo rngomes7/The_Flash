@@ -12,6 +12,7 @@
         android:text="Make/Edit Flashcards"
         android:id="@+id/make_edit_button"
         android:typeface="serif"
+        android:height="75dp"
         android:layout_above="@+id/study_button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -29,7 +30,8 @@
         android:layout_centerHorizontal="true"
         android:textColor="#ff58b0ff"
         android:textSize="70dp"
-        android:typeface="serif" />
+        android:typeface="serif"
+        android:elegantTextHeight="false" />
 
     <Button
         android:layout_width="wrap_content"
@@ -37,11 +39,12 @@
         android:text="Study"
         android:id="@+id/study_button"
         android:typeface="serif"
+        android:height="75dp"
         android:layout_above="@+id/your_scores_button"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignRight="@+id/your_scores_button"
-        android:layout_alignEnd="@+id/your_scores_button" />
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -50,11 +53,12 @@
         android:text="Your Scores"
         android:id="@+id/your_scores_button"
         android:typeface="serif"
+        android:height="75dp"
         android:layout_above="@+id/settings_button"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_alignRight="@+id/settings_button"
-        android:layout_alignEnd="@+id/settings_button" />
+        android:layout_alignEnd="@+id/settings_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -66,5 +70,6 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:height="75dp" />
 </RelativeLayout>
